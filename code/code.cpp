@@ -110,7 +110,7 @@ void breaks(char s[], float distrb[], float nrapp[])
 	
 	
 	int i = 1;
-	while (i<26)
+	while (strcmp(s,s1)!=0)
 	{
 		encrypt(s1, i++);
 		int chi = chiDist(s1, distrb, nrapp);
